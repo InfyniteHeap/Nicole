@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Nicole (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Nicole (Unpackaged)": {
+      "commandName": "Project"
+    },
+    "Nicole (Unpackaged, Devtools)": {
+      "commandName": "Project",
+      "commandLineArgs": "--devtools"
+    }
+  }
+}
