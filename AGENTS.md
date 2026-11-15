@@ -17,16 +17,16 @@ winget install Microsoft.winappcli --source winget
 
 A sample of the commands it provides:
 
-| Command | Use it to |
-|---------|-----------|
-| `winapp run` | Build and launch the app with full MSIX package identity |
+| Command                                     | Use it to                                                                   |
+| ------------------------------------------- | --------------------------------------------------------------------------- |
+| `winapp run`                                | Build and launch the app with full MSIX package identity                    |
 | `winapp find-ui "<query>" --source reactor` | Find a working Reactor code example before writing a component from scratch |
-| `winapp ui inspect -a <app>` | Inspect the running app's UI element tree |
-| `winapp ui invoke\|set-value\|send-keys` | Drive the UI to verify a change works |
-| `winapp ui screenshot -a <app>` | Capture the window as a PNG |
-| `winapp manifest` | Create and modify `Package.appxmanifest` |
-| `winapp package` / `winapp sign` | Build and code-sign an MSIX for distribution |
-| `winapp cert` | Create a development signing certificate |
+| `winapp ui inspect -a <app>`                | Inspect the running app's UI element tree                                   |
+| `winapp ui invoke\|set-value\|send-keys`    | Drive the UI to verify a change works                                       |
+| `winapp ui screenshot -a <app>`             | Capture the window as a PNG                                                 |
+| `winapp manifest`                           | Create and modify `Package.appxmanifest`                                    |
+| `winapp package` / `winapp sign`            | Build and code-sign an MSIX for distribution                                |
+| `winapp cert`                               | Create a development signing certificate                                    |
 
 Prefer these over hand-rolled scripts for packaging, signing, and UI verification.
 
